@@ -11,8 +11,8 @@ $(document).ready(function(){ //(ready)當文件載入完成時
     var wether_url = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-091?Authorization=rdec-key-123-45678-011121314";
     var pm25_url = "https://opendata.epa.gov.tw/ws/Data/ATM00625/?$format=json";
     
-   // getdata('data_Zhongli.json','container1','中壢區');
-    getdata('https://data.tycg.gov.tw/api/v1/rest/datastore/9e5756d8-f481-4ab8-881a-416dd04fa07f?format=json','container1','中壢區');
+    getdata('data_Zhongli.json','container1','中壢區');
+    //getdata('https://data.tycg.gov.tw/api/v1/rest/datastore/9e5756d8-f481-4ab8-881a-416dd04fa07f?format=json','container1','中壢區');
     getdata('data_Taoyuan.json','container2','桃園區');
     getdata('data_Pingzhen.json','container3','平鎮區');
     getdata('data_Longtan.json','container4','龍潭區');
